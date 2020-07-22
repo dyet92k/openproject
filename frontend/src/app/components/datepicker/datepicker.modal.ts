@@ -138,6 +138,10 @@ export class DatePickerModal extends OpModalComponent implements AfterViewInit {
   }
 
   save():void {
+    if (!this.isSchedulable) {
+      return;
+    }
+
     if (this.singleDate) {
       this.changeset.setValue('date', this.datepickerHelper.mappedDate(this.dates.date));
     } else {
@@ -191,7 +195,7 @@ export class DatePickerModal extends OpModalComponent implements AfterViewInit {
   }
 
   showTodayLink(key:DateKeys):boolean {
-    if (!this.datepickerHelper.isStateOfCurrentActivatedField(key) && !this.isSchedulable) {
+    if (!this.isSchedulable) {
       return false;
     }
 
