@@ -14,7 +14,6 @@ import {DragAndDropHelpers} from "core-app/modules/common/drag-and-drop/drag-and
 import {WorkPackageViewOrderService} from "core-app/modules/work_packages/routing/wp-view-base/view-services/wp-view-order.service";
 import {RenderedWorkPackage} from "core-app/modules/work_packages/render-info/rendered-work-package.type";
 import {BrowserDetector} from "core-app/modules/common/browser/browser-detector.service";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 import {WorkPackagesListService} from "core-components/wp-list/wp-list.service";
 import {InjectField} from "core-app/helpers/angular/inject-field.decorator";
 

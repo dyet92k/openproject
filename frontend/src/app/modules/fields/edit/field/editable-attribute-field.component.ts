@@ -26,8 +26,6 @@
 // See docs/COPYRIGHT.rdoc for more details.
 // ++
 
-import {WorkPackageCacheService} from 'core-components/work-packages/work-package-cache.service';
-import {HalResourceNotificationService} from "core-app/modules/hal/services/hal-resource-notification.service";
 import {States} from 'core-components/states.service';
 import {
   displayClassName,

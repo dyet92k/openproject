@@ -37,7 +37,6 @@ import {
   UploadFile
 } from 'core-components/api/op-file-upload/op-file-upload.service';
 import {States} from 'core-components/states.service';
-import {WorkPackageCacheService} from 'core-components/work-packages/work-package-cache.service';
 import {PathHelperService} from 'core-app/modules/common/path-helper/path-helper.service';
 import {NotificationsService} from 'core-app/modules/common/notifications/notifications.service';
 import {Attachable} from 'core-app/modules/hal/resources/mixins/attachable-mixin';

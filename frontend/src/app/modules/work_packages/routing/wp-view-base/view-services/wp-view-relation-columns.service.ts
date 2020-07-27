@@ -34,7 +34,6 @@ import {HalResourceService} from 'core-app/modules/hal/services/hal-resource.ser
 import {RelationResource} from 'core-app/modules/hal/resources/relation-resource';
 import {WorkPackageViewRelationColumns} from "core-app/modules/work_packages/routing/wp-view-base/view-services/wp-table-relation-columns";
 import {IsolatedQuerySpace} from "core-app/modules/work_packages/query-space/isolated-query-space";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 import {RelationsStateValue, WorkPackageRelationsService} from "core-components/wp-relations/wp-relations.service";
 import {Injectable} from "@angular/core";
 import {

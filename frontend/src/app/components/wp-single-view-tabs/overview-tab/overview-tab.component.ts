@@ -28,7 +28,6 @@
 
 import {Component} from '@angular/core';
 import {StateService} from '@uirouter/core';
-import {WorkPackageCacheService} from 'core-components/work-packages/work-package-cache.service';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';
 import {I18nService} from 'core-app/modules/common/i18n/i18n.service';
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";

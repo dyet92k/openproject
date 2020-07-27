@@ -33,7 +33,6 @@ import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-r
 
 import {Observable, zip} from 'rxjs';
 import {take, takeUntil} from 'rxjs/operators';
-import {WorkPackageCacheService} from '../work-packages/work-package-cache.service';
 import {RelatedWorkPackagesGroup} from './wp-relations.interfaces';
 import {RelationsStateValue, WorkPackageRelationsService} from './wp-relations.service';
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";

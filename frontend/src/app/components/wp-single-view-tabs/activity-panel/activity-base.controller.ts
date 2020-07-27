@@ -31,7 +31,6 @@ import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-r
 import {HalResource} from 'core-app/modules/hal/resources/hal-resource';
 import {ActivityEntryInfo} from 'core-components/wp-single-view-tabs/activity-panel/activity-entry-info';
 import {WorkPackagesActivityService} from 'core-components/wp-single-view-tabs/activity-panel/wp-activity.service';
-import {WorkPackageCacheService} from '../../work-packages/work-package-cache.service';
 import {I18nService} from "core-app/modules/common/i18n/i18n.service";
 import {Transition} from "@uirouter/core";
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";

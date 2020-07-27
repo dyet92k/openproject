@@ -5,7 +5,6 @@ import {debugLog} from '../../helpers/debug_output';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';
 
 import {States} from '../states.service';
-import {WorkPackageCacheService} from '../work-packages/work-package-cache.service';
 import {WorkPackageTimelineTableController} from '../wp-table/timeline/container/wp-timeline-container.directive';
 import {GroupedRowsBuilder} from './builders/modes/grouped/grouped-rows-builder';
 import {HierarchyRowsBuilder} from './builders/modes/hierarchy/hierarchy-rows-builder';

@@ -27,7 +27,6 @@
 //++
 
 import {UserResource} from 'core-app/modules/hal/resources/user-resource';
-import {WorkPackageCacheService} from '../../work-packages/work-package-cache.service';
 import {PathHelperService} from 'core-app/modules/common/path-helper/path-helper.service';
 import {ConfigurationService} from 'core-app/modules/common/config/configuration.service';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';

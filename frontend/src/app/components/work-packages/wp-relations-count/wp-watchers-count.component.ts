@@ -1,5 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {WorkPackageCacheService} from '../../work-packages/work-package-cache.service';
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";
 import { WorkPackageWatchersService } from 'core-app/components/wp-single-view-tabs/watchers-tab/wp-watchers.service';
 import { HalResource } from 'core-app/modules/hal/resources/hal-resource';

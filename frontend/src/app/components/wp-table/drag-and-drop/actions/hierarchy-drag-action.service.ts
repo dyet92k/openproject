@@ -6,7 +6,6 @@ import {
   hierarchyGroupClass,
   hierarchyRootClass
 } from "core-components/wp-fast-table/helpers/wp-table-hierarchy-helpers";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 import {relationRowClass} from "core-components/wp-fast-table/helpers/wp-table-row-helpers";
 import {InjectField} from "core-app/helpers/angular/inject-field.decorator";
 

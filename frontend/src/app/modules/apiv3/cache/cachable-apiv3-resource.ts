@@ -90,7 +90,7 @@ export abstract class CachableAPIV3Resource<T extends HasId = HalResource>
    *
    * Accesses or modifies the global store for this resource.
    */
-  getFresh():Observable<T> {
+  refresh():Observable<T> {
     return this.requireAndStream(true);
   }
 

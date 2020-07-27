@@ -3,7 +3,6 @@ import {QueryResource} from 'core-app/modules/hal/resources/query-resource';
 import {WorkPackageCollectionResource} from 'core-app/modules/hal/resources/wp-collection-resource';
 import {SchemaResource} from 'core-app/modules/hal/resources/schema-resource';
 import {QueryFormResource} from 'core-app/modules/hal/resources/query-form-resource';
-import {WorkPackageCacheService} from '../work-packages/work-package-cache.service';
 import {WorkPackagesListChecksumService} from './wp-list-checksum.service';
 import {AuthorisationService} from 'core-app/modules/common/model-auth/model-auth.service';
 import {IsolatedQuerySpace} from "core-app/modules/work_packages/query-space/isolated-query-space";

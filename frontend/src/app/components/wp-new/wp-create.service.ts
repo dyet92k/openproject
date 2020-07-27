@@ -27,7 +27,6 @@
 // ++
 
 import {Injectable, Injector} from '@angular/core';
-import {WorkPackageCacheService} from '../work-packages/work-package-cache.service';
 import {Observable, Subject} from 'rxjs';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';
 import {HalResourceService} from 'core-app/modules/hal/services/hal-resource.service';

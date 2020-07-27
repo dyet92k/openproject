@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {WorkPackageRelationsService} from '../../wp-relations/wp-relations.service';
-import {WorkPackageCacheService} from '../../work-packages/work-package-cache.service';
 import {combineLatest} from 'rxjs';
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";
 

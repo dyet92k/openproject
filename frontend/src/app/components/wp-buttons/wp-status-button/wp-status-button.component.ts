@@ -33,7 +33,6 @@ import {ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
 import {I18nService} from 'core-app/modules/common/i18n/i18n.service';
 import {Highlighting} from "core-components/wp-fast-table/builders/highlighting/highlighting.functions";
 import {HalResource} from "core-app/modules/hal/resources/hal-resource";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";
 import {concatAll} from "rxjs/operators";
 import {combineLatest} from "rxjs";

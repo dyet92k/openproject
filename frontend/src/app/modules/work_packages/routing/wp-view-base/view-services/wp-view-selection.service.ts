@@ -1,5 +1,4 @@
 import {IsolatedQuerySpace} from "core-app/modules/work_packages/query-space/isolated-query-space";
-import {WorkPackageCacheService} from 'core-components/work-packages/work-package-cache.service';
 import {Injectable, OnDestroy} from '@angular/core';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';
 import {States} from 'core-components/states.service';

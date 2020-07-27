@@ -28,7 +28,6 @@
 
 
 import {DisplayField} from "core-app/modules/fields/display/display-field.module";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 import {IFieldSchema} from "core-app/modules/fields/field.base";
 
 interface ICostsByType {

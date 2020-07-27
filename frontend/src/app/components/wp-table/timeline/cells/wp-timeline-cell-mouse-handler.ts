@@ -28,7 +28,6 @@
 
 import {Injector} from '@angular/core';
 import * as moment from 'moment';
-import {WorkPackageCacheService} from '../../../work-packages/work-package-cache.service';
 import {WorkPackageTimelineTableController} from '../container/wp-timeline-container.directive';
 import {RenderInfo} from '../wp-timeline';
 import {TimelineCellRenderer} from './timeline-cell-renderer';

@@ -1,6 +1,5 @@
 import {Injector} from '@angular/core';
 import {States} from '../../../states.service';
-import {WorkPackageCacheService} from '../../../work-packages/work-package-cache.service';
 import {WorkPackageTable} from '../../wp-fast-table';
 import {commonRowClassName} from '../rows/single-row-builder';
 import {WorkPackageViewTimelineService} from "core-app/modules/work_packages/routing/wp-view-base/view-services/wp-view-timeline.service";

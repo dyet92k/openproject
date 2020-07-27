@@ -29,7 +29,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {UIRouterGlobals} from '@uirouter/core';
 import {WorkPackageResource} from 'core-app/modules/hal/resources/work-package-resource';
-import {WorkPackageCacheService} from '../work-package-cache.service';
 import {randomString} from "core-app/helpers/random-string";
 import {UntilDestroyedMixin} from "core-app/helpers/angular/until-destroyed.mixin";
 

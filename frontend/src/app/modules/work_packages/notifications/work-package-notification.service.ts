@@ -30,7 +30,6 @@ import {Injectable, Injector} from '@angular/core';
 import {INotification} from 'core-app/modules/common/notifications/notifications.service';
 import {HalResourceNotificationService} from "core-app/modules/hal/services/hal-resource-notification.service";
 import {WorkPackageResource} from "core-app/modules/hal/resources/work-package-resource";
-import {WorkPackageCacheService} from "core-components/work-packages/work-package-cache.service";
 
 @Injectable()
 export class WorkPackageNotificationService extends HalResourceNotificationService {
